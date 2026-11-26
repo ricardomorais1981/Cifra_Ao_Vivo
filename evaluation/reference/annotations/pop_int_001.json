@@ -1,0 +1,16 @@
+{
+  "id": "pop_int_001",
+  "title": "Let It Be",
+  "artist": "The Beatles",
+  "duration": 0.0,
+  "key": "C major",
+  "bpm": 72.0,
+  "time_signature": "4/4",
+  "split": "test",
+  "style": "pop_int",
+  "difficulty": "medium",
+  "audio_file": "pop_int_001.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. RESERVADA PARA TESTE INDEPENDENTE. Não usar para ajuste.",
+  "events": []
+}

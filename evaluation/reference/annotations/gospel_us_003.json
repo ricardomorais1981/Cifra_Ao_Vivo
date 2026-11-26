@@ -1,0 +1,16 @@
+{
+  "id": "gospel_us_003",
+  "title": "Shout to the Lord",
+  "artist": "Darlene Zschech",
+  "duration": 0.0,
+  "key": "A major",
+  "bpm": 80.0,
+  "time_signature": "4/4",
+  "split": "dev",
+  "style": "gospel_us",
+  "difficulty": "medium",
+  "audio_file": "gospel_us_003.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. Progressão contemporânea. Contém maj7 e sus4 frequentes.",
+  "events": []
+}

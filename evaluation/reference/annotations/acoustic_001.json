@@ -1,0 +1,16 @@
+{
+  "id": "acoustic_001",
+  "title": "Blackbird",
+  "artist": "The Beatles",
+  "duration": 0.0,
+  "key": "G major",
+  "bpm": 92.0,
+  "time_signature": "4/4",
+  "split": "test",
+  "style": "acoustic",
+  "difficulty": "hard",
+  "audio_file": "acoustic_001.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. RESERVADA PARA TESTE. Guitarra solo — baixo e melodia simultaneamente. Alta complexidade.",
+  "events": []
+}

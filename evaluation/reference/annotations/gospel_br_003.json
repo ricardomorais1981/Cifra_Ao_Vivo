@@ -1,0 +1,16 @@
+{
+  "id": "gospel_br_003",
+  "title": "Mais uma Vez",
+  "artist": "Soraya Moraes",
+  "duration": 0.0,
+  "key": "Bb major",
+  "bpm": 68.0,
+  "time_signature": "4/4",
+  "split": "dev",
+  "style": "gospel_br",
+  "difficulty": "medium",
+  "audio_file": "gospel_br_003.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. Contém acordes de passagem e II-V-I. Modulação suspeita no refrão.",
+  "events": []
+}

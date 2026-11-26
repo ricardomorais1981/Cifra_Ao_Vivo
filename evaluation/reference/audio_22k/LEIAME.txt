@@ -1,0 +1,3 @@
+Copias de avaliacao (22050 Hz, mono, 16 bits) dos dois audios de referencia do Cifra ao Vivo.
+Os originais (48 kHz, estereo) continuam intactos no projeto, em evaluation/reference/audio/.
+Use estas copias so para medir o motor no ambiente do agente diario.

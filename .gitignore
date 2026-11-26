@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+_uploads/
+.deps_ok
+*.bak_*
+# Originais de referencia (48 kHz) ficam no computador do usuario; aqui so as copias 22k
+evaluation/reference/audio/*.wav

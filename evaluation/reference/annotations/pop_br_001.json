@@ -1,0 +1,16 @@
+{
+  "id": "pop_br_001",
+  "title": "Como é Grande o Meu Amor por Você",
+  "artist": "Roberto Carlos",
+  "duration": 0.0,
+  "key": "C major",
+  "bpm": 70.0,
+  "time_signature": "4/4",
+  "split": "dev",
+  "style": "pop_br",
+  "difficulty": "medium",
+  "audio_file": "pop_br_001.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. Balada lenta. Acordes de passagem cromáticos.",
+  "events": []
+}

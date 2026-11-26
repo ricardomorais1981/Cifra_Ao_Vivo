@@ -1,0 +1,16 @@
+{
+  "id": "gospel_us_005",
+  "title": "Here I Am to Worship",
+  "artist": "Tim Hughes",
+  "duration": 0.0,
+  "key": "E major",
+  "bpm": 76.0,
+  "time_signature": "4/4",
+  "split": "dev",
+  "style": "gospel_us",
+  "difficulty": "hard",
+  "audio_file": "gospel_us_005.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. Contém inversões C#m/B e A/E. Dificuldade de baixo.",
+  "events": []
+}

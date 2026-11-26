@@ -1,0 +1,175 @@
+{
+  "version": "1.0",
+  "created": "2026-11-17",
+  "description": "Coleção de referência para avaliação do motor Cifra ao Vivo v2.0",
+  "split_policy": {
+    "dev": "Músicas de desenvolvimento — podem ser usadas para ajuste de parâmetros e calibração",
+    "test": "Músicas de teste — NUNCA usar para ajuste; avaliação independente final apenas"
+  },
+  "songs": [
+    {
+      "id": "gospel_br_001",
+      "title": "Grande é o Senhor",
+      "artist": "Comunidade Crista Maranata",
+      "split": "dev",
+      "style": "gospel_br",
+      "difficulty": "easy",
+      "has_audio": true
+    },
+    {
+      "id": "gospel_br_002",
+      "title": "Deus Cuida de Mim",
+      "artist": "Fernanda Brum",
+      "split": "dev",
+      "style": "gospel_br",
+      "difficulty": "easy",
+      "has_audio": false
+    },
+    {
+      "id": "gospel_br_003",
+      "title": "Mais uma Vez",
+      "artist": "Soraya Moraes",
+      "split": "dev",
+      "style": "gospel_br",
+      "difficulty": "medium",
+      "has_audio": false
+    },
+    {
+      "id": "gospel_br_004",
+      "title": "Creio em Ti",
+      "artist": "Aline Barros",
+      "split": "dev",
+      "style": "gospel_br",
+      "difficulty": "medium",
+      "has_audio": false
+    },
+    {
+      "id": "gospel_br_005",
+      "title": "Hallelujah (versão gospel BR)",
+      "artist": "Various",
+      "split": "dev",
+      "style": "gospel_br",
+      "difficulty": "hard",
+      "has_audio": false
+    },
+    {
+      "id": "gospel_us_001",
+      "title": "I Thank You for the Cross",
+      "artist": "Colby Wedgeworth, Tauren Wells, Jonathan Smith",
+      "split": "dev",
+      "style": "gospel_us",
+      "difficulty": "medium",
+      "has_audio": true
+    },
+    {
+      "id": "gospel_us_002",
+      "title": "How Great Thou Art",
+      "artist": "Traditional",
+      "split": "dev",
+      "style": "gospel_us",
+      "difficulty": "easy",
+      "has_audio": false
+    },
+    {
+      "id": "gospel_us_003",
+      "title": "Shout to the Lord",
+      "artist": "Darlene Zschech",
+      "split": "dev",
+      "style": "gospel_us",
+      "difficulty": "medium",
+      "has_audio": false
+    },
+    {
+      "id": "gospel_us_004",
+      "title": "Open the Eyes of My Heart",
+      "artist": "Paul Baloche",
+      "split": "dev",
+      "style": "gospel_us",
+      "difficulty": "medium",
+      "has_audio": false
+    },
+    {
+      "id": "gospel_us_005",
+      "title": "Here I Am to Worship",
+      "artist": "Tim Hughes",
+      "split": "dev",
+      "style": "gospel_us",
+      "difficulty": "hard",
+      "has_audio": false
+    },
+    {
+      "id": "pop_br_001",
+      "title": "Como é Grande o Meu Amor por Você",
+      "artist": "Roberto Carlos",
+      "split": "dev",
+      "style": "pop_br",
+      "difficulty": "medium",
+      "has_audio": false
+    },
+    {
+      "id": "pop_br_002",
+      "title": "Pais e Filhos",
+      "artist": "Legião Urbana",
+      "split": "dev",
+      "style": "pop_br",
+      "difficulty": "hard",
+      "has_audio": false
+    },
+    {
+      "id": "pop_int_001",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "split": "test",
+      "style": "pop_int",
+      "difficulty": "medium",
+      "has_audio": false
+    },
+    {
+      "id": "pop_int_002",
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "split": "test",
+      "style": "pop_int",
+      "difficulty": "hard",
+      "has_audio": false
+    },
+    {
+      "id": "acoustic_001",
+      "title": "Blackbird",
+      "artist": "The Beatles",
+      "split": "test",
+      "style": "acoustic",
+      "difficulty": "hard",
+      "has_audio": false
+    }
+  ],
+  "statistics": {
+    "total": 15,
+    "by_split": {
+      "dev": 12,
+      "test": 3
+    },
+    "by_style": {
+      "gospel_br": 5,
+      "gospel_us": 5,
+      "pop_br": 2,
+      "pop_int": 2,
+      "acoustic": 1
+    },
+    "by_difficulty": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 5
+    },
+    "with_audio": 2,
+    "with_annotations": 2
+  },
+  "notes": [
+    "Coleção v1.0 — apenas esqueletos, sem áudio e sem anotações de acorde.",
+    "Áudios devem ser adicionados manualmente em evaluation/reference/audio/",
+    "Anotações de acorde devem ser preenchidas usando o editor de referência.",
+    "Músicas test/* NUNCA devem influenciar parâmetros do motor.",
+    "Atualizar has_audio e statistics.with_audio ao adicionar arquivos de áudio.",
+    "Atualizar statistics.with_annotations ao preencher eventos de acorde."
+  ]
+}

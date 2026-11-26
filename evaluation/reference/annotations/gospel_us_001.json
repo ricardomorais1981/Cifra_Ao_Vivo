@@ -1,0 +1,827 @@
+{
+  "id": "gospel_us_001",
+  "title": "I Thank You for the Cross",
+  "artist": "Colby Wedgeworth, Tauren Wells, Jonathan Smith",
+  "duration": 267.253,
+  "key": "C major",
+  "bpm": 75,
+  "time_signature": "4/4",
+  "split": "dev",
+  "style": "gospel_us",
+  "difficulty": "medium",
+  "audio_file": "gospel_us_001.wav",
+  "source_url": "https://www.youtube.com/watch?v=Lj0TRkV-j4o",
+  "annotator_notes": "Anotacao por analise de chromagrama (STFT manual, hop=0.5s, win=2s, 48kHz->22050Hz), 531 frames. Tonalidade C major confirmada em toda a gravacao. Musica apresenta acordes com baixo especifico (G/B, F/A, C/E, C/G), acordes suspensus (Csus, Gsus, Asus), Dm7, Fm6 e C(no3) — estruturas preservadas conforme cifra de referencia. Chromagrama distingue bem os graus harmonicos principais; acordes com baixo anotados com campo bass. IMPORTANTE: o chromagrama STFT integra toda a energia harmonica — nao separa grave do agudo. Todas as notas de baixo foram INFERIDAS pelo contexto harmonico e pela cifra de referencia; nenhuma foi detectada diretamente no sinal. Certeza: classificacao qualitativa nao calibrada. Alta = acorde claramente dominante no frame, coerente com tonalidade, sem ambiguidade; Media = ambiguidade entre candidatos, transicao, duracao curta ou resolucao dependente da cifra; Baixa = score baixo, transicao ou duracao muito curta (<2s). Os scores citados nas notes sao produtos internos normalizados (dot product, escala aprox. 0.7-1.4), nao probabilidades. Estrutura identificada (limites baseados nos eventos anotados): Intro (0-7s) | Verso 1 (7-51s) | Verso 2 (51-105s) | Refrao 1 (105-163s) | Interlude (163-183.5s) | Bridge 1 (183.5-213s) | Bridge 2 (213-247.5s) | Half-Chorus (247.5-266.5s).",
+  "events": [
+    {
+      "start": 1.0,
+      "end": 7.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Intro. C dominante claro (score 0.87-1.10). C5/Csus nos primeiros frames — arrange intro com guitarra sustentada."
+    },
+    {
+      "start": 7.0,
+      "end": 11.0,
+      "root": "D",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Verso 1 — Dm-C. Dm claro (Dmin7 0.95+, Dmin 0.88)."
+    },
+    {
+      "start": 11.0,
+      "end": 15.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Verso 1 — Dm-C. C dominante (1.07)."
+    },
+    {
+      "start": 15.0,
+      "end": 17.0,
+      "root": "C",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Csus (cifra: Csus-C). Score sus4 0.90."
+    },
+    {
+      "start": 17.0,
+      "end": 20.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Resolucao C (cifra: Csus-C). Score 1.07."
+    },
+    {
+      "start": 20.0,
+      "end": 23.0,
+      "root": "G",
+      "quality": "maj",
+      "bass": "B",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "G/B (cifra: G/B). Chromagrama detecta F area + C5 — baixo B, funcao de passagem G/B. Score G 0.73 com presenca de Si."
+    },
+    {
+      "start": 23.0,
+      "end": 27.0,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am (cifra: G/B-Am). Score Am 0.73-0.80, Amin7 0.80."
+    },
+    {
+      "start": 27.0,
+      "end": 30.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-Am). Score Fadd9 0.88. A e componente da triade Fadd9 (F-A-C-G) — confirma o acorde F, nao o baixo especificamente. Baixo A inferido da cifra."
+    },
+    {
+      "start": 30.0,
+      "end": 33.5,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am (cifra: F/A-Am). Score Cmaj/Amin7 0.95-1.00."
+    },
+    {
+      "start": 33.5,
+      "end": 37.0,
+      "root": "G",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Gsus (cifra: Gsus-F). Csus4/Fsus2 dominantes (0.99) — Gsus4 interpretado pelo contexto."
+    },
+    {
+      "start": 37.0,
+      "end": 41.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F (cifra: Gsus-F). Fadd9 1.02, Amin7 0.97."
+    },
+    {
+      "start": 41.5,
+      "end": 46.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F-C (cifra: F-C). Fadd9 dominante 1.00+ na primeira metade."
+    },
+    {
+      "start": 46.5,
+      "end": 51.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "C (cifra: F-C). Score Cmaj 1.12, Amin7 1.05."
+    },
+    {
+      "start": 51.0,
+      "end": 55.5,
+      "root": "D",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Verso 2 — Dm-C. Dm7 1.00, Dmin 0.96."
+    },
+    {
+      "start": 55.5,
+      "end": 59.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "C (cifra: Dm-C). Cadd9 0.91, Cmaj 0.90."
+    },
+    {
+      "start": 59.0,
+      "end": 61.0,
+      "root": "C",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Csus (cifra: Csus-C). Csus4 1.10."
+    },
+    {
+      "start": 61.0,
+      "end": 64.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "C. Score Cmaj 0.97."
+    },
+    {
+      "start": 64.5,
+      "end": 68.0,
+      "root": "G",
+      "quality": "maj",
+      "bass": "B",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "G/B (cifra: G/B-Am). Score G area presente. B e a 3a de G — nao detectavel separadamente no chromagrama. G/B inferido pela cifra e contexto harmonico (mesma figura do Verso 1)."
+    },
+    {
+      "start": 68.0,
+      "end": 72.0,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am. Score Amin 1.06, Amin7 1.02."
+    },
+    {
+      "start": 72.0,
+      "end": 75.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-Am). Fadd9 dominante."
+    },
+    {
+      "start": 75.5,
+      "end": 80.0,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am. Score Amin 1.00+."
+    },
+    {
+      "start": 80.0,
+      "end": 83.5,
+      "root": "G",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Gsus (cifra: Gsus-F). Interpretado como Gsus pelo contexto."
+    },
+    {
+      "start": 83.5,
+      "end": 88.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F. Fadd9 0.95+."
+    },
+    {
+      "start": 88.0,
+      "end": 92.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F-C (cifra). Fadd9 / Amin7 alternados."
+    },
+    {
+      "start": 92.5,
+      "end": 97.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "C. Score Cadd9 0.95, Cmaj 0.95."
+    },
+    {
+      "start": 97.0,
+      "end": 101.5,
+      "root": "G",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Gsus (cifra: Gsus-G). Dsus2/Asus4 indicando area de G."
+    },
+    {
+      "start": 101.5,
+      "end": 105.0,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G resolucao (cifra: Gsus-G). Score Gmaj confirmado."
+    },
+    {
+      "start": 105.0,
+      "end": 109.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Refrão 1 — C-C2. Cadd9 1.10, Cmaj 1.03."
+    },
+    {
+      "start": 109.5,
+      "end": 112.0,
+      "root": "C",
+      "quality": "add9",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "C2/Cadd9 (cifra: C-C2). Score Cadd9 1.18, Dsus2 1.15."
+    },
+    {
+      "start": 112.0,
+      "end": 115.5,
+      "root": "C",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Csus (cifra: Csus-C). D7/Dm7 transitorio, resolve em Csus."
+    },
+    {
+      "start": 115.5,
+      "end": 119.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "C. Score Amin 1.20, Cmaj 0.97 — harmonia Amin/C compartilham notas."
+    },
+    {
+      "start": 119.0,
+      "end": 123.0,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am-Asus (cifra: Am-Asus). Amin 1.20, Amin7 1.11."
+    },
+    {
+      "start": 123.0,
+      "end": 126.5,
+      "root": "A",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Asus (cifra: Am-Asus). Dsus2/Asus4 1.27."
+    },
+    {
+      "start": 126.5,
+      "end": 130.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-Am). Fadd9 dominante."
+    },
+    {
+      "start": 130.0,
+      "end": 134.5,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am. Score Amin 1.20, Dm7 1.03."
+    },
+    {
+      "start": 134.5,
+      "end": 138.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F (cifra: F-G). Fadd9 1.11, Amin7 1.06."
+    },
+    {
+      "start": 138.0,
+      "end": 141.5,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G. Score Dm7/Fadd9 — G resolucao pelo contexto. Score G 0.90+."
+    },
+    {
+      "start": 141.5,
+      "end": 145.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-Am). Score Dm7 0.85, F area presente. A e componente tanto de Fadd9 quanto de Dm7 — nao confirma o baixo. Baixo A inferido da cifra."
+    },
+    {
+      "start": 145.0,
+      "end": 149.0,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am. Score E/C frames, context Am."
+    },
+    {
+      "start": 149.0,
+      "end": 152.5,
+      "root": "G",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Gsus-F (cifra). Csus4 frame, interpretado como Gsus."
+    },
+    {
+      "start": 152.5,
+      "end": 155.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "low",
+      "notes": "F (cifra: Gsus-F / F-Fm6-C/G-G). Transicao para Fm6 — score baixo nesta zona."
+    },
+    {
+      "start": 155.0,
+      "end": 157.5,
+      "root": "F",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Fm6 (cifra: F-Fm6). Detectado como area menor de F. Score Fmin presente."
+    },
+    {
+      "start": 157.5,
+      "end": 160.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": "G",
+      "inversion": "second",
+      "certainty": "medium",
+      "notes": "C/G (cifra: F-Fm6-C/G-G). Bass G inferido do contexto. Score C dominante."
+    },
+    {
+      "start": 160.5,
+      "end": 163.0,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G resolucao. Score G 0.90+."
+    },
+    {
+      "start": 163.0,
+      "end": 167.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Interlude — F-G. Fadd9 dominante 0.95+."
+    },
+    {
+      "start": 167.0,
+      "end": 169.5,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G. Score G dominante."
+    },
+    {
+      "start": 169.5,
+      "end": 171.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "F/A (cifra: F-G-F/A-C/E). Bass A inferido."
+    },
+    {
+      "start": 171.5,
+      "end": 173.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": "E",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "C/E (cifra: F/A-C/E). Bass E inferido. Score Cmaj dominant."
+    },
+    {
+      "start": 173.5,
+      "end": 176.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Interlude repete — F. Fadd9 1.08."
+    },
+    {
+      "start": 176.5,
+      "end": 179.5,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G."
+    },
+    {
+      "start": 179.5,
+      "end": 181.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "F/A (cifra: F-G-F/A-C/E, Interlude repete). Baixo A inferido da cifra por analogia com 169.5s."
+    },
+    {
+      "start": 181.5,
+      "end": 183.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": "E",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "C/E (cifra: F/A-C/E, Interlude repete). Baixo E inferido da cifra por analogia com 171.5s."
+    },
+    {
+      "start": 183.5,
+      "end": 186.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Bridge 1 — F-G. Score Fadd9 1.22, Amin7 1.21."
+    },
+    {
+      "start": 186.5,
+      "end": 189.5,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G. Score G dominante. Dm7/Fadd9 frame residual."
+    },
+    {
+      "start": 189.5,
+      "end": 192.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-C/E). Fadd9 1.07, Dm7 1.06 com bass A."
+    },
+    {
+      "start": 192.5,
+      "end": 195.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": "E",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "C/E. Score Cmaj dominante com bass E inferido."
+    },
+    {
+      "start": 195.5,
+      "end": 198.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F."
+    },
+    {
+      "start": 198.5,
+      "end": 201.5,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G."
+    },
+    {
+      "start": 201.5,
+      "end": 204.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-C/E, Bridge 1 ciclo 3). Baixo A inferido da cifra."
+    },
+    {
+      "start": 204.5,
+      "end": 207.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": "E",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "C/E (cifra: F/A-C/E, Bridge 1 ciclo 3). Baixo E inferido da cifra."
+    },
+    {
+      "start": 207.5,
+      "end": 210.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F."
+    },
+    {
+      "start": 210.5,
+      "end": 213.0,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G de resolucao — Bridge 1 fecha aqui (cifra nesta posicao: F/A, mas chromagrama detecta G). Score G dominante. Incerteza: pode ser F/A nao resolvido ou G de cadencia."
+    },
+    {
+      "start": 213.0,
+      "end": 216.5,
+      "root": "G",
+      "quality": "maj",
+      "bass": "B",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "Bridge 2 — G/B-C (cifra). Score Csus2 dominante {C,D,G}; G/B {G,B,D} compartilha G e D. G/B inferido exclusivamente da cifra; evidencia cromatica ambigua (Csus2 vs G/B). Certeza media justificada."
+    },
+    {
+      "start": 216.5,
+      "end": 220.0,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "C (cifra: G/B-C-C/E-F-G). Score Cadd9 1.25."
+    },
+    {
+      "start": 220.0,
+      "end": 222.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": "E",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "C/E. Score C com bass E inferido."
+    },
+    {
+      "start": 222.5,
+      "end": 225.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F (cifra: F-G)."
+    },
+    {
+      "start": 225.5,
+      "end": 229.0,
+      "root": "G",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "G. Score G 0.85+."
+    },
+    {
+      "start": 229.0,
+      "end": 232.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-C/E). Score Fadd9 1.20."
+    },
+    {
+      "start": 232.0,
+      "end": 234.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": "E",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "C/E (cifra: F/A-C/E, Bridge 2). Score C dominante. Baixo E inferido da cifra."
+    },
+    {
+      "start": 234.5,
+      "end": 237.5,
+      "root": "F",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "F (cifra: F-G). Score Cadd9/Emin7 — F confirmado."
+    },
+    {
+      "start": 237.5,
+      "end": 240.5,
+      "root": "G",
+      "quality": "maj",
+      "bass": "B",
+      "inversion": "first",
+      "certainty": "medium",
+      "notes": "G/B (cifra: F/A-G/B). Bass B inferido."
+    },
+    {
+      "start": 240.5,
+      "end": 243.5,
+      "root": "C",
+      "quality": "maj",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "C (cifra: C-Dm7-C/E). Score Cadd9 1.32."
+    },
+    {
+      "start": 243.5,
+      "end": 246.0,
+      "root": "D",
+      "quality": "min7",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Dm7 (cifra: C-Dm7-C/E). Score Dm7 1.00+, G7 0.97."
+    },
+    {
+      "start": 246.0,
+      "end": 247.5,
+      "root": "F",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Fm6 (cifra: F-Fm6). Area Fm detectada. Score Amin7 / F dominante."
+    },
+    {
+      "start": 247.5,
+      "end": 251.0,
+      "root": "C",
+      "quality": "5",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Half-Chorus — C(no3) (cifra: C(no3)). Score C5 dominante, sem terca definida. 1.03."
+    },
+    {
+      "start": 251.0,
+      "end": 253.5,
+      "root": "C",
+      "quality": "5",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "C(no3) repetido (cifra). Score C5 1.03."
+    },
+    {
+      "start": 253.5,
+      "end": 257.0,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am-Asus (cifra: Am-Asus). Score Amin7 1.08, Cmaj 1.03."
+    },
+    {
+      "start": 257.0,
+      "end": 259.5,
+      "root": "A",
+      "quality": "sus4",
+      "bass": null,
+      "inversion": null,
+      "certainty": "medium",
+      "notes": "Asus. Score Esus4/Asus2 dominante — interpretado como Asus4."
+    },
+    {
+      "start": 259.5,
+      "end": 262.0,
+      "root": "F",
+      "quality": "maj",
+      "bass": "A",
+      "inversion": "first",
+      "certainty": "high",
+      "notes": "F/A (cifra: F/A-Am). Score Fadd9 1.34."
+    },
+    {
+      "start": 262.0,
+      "end": 264.0,
+      "root": "A",
+      "quality": "min",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Am. Score Amin7 1.39, Fadd9 1.32."
+    },
+    {
+      "start": 264.0,
+      "end": 266.5,
+      "root": "D",
+      "quality": "min7",
+      "bass": null,
+      "inversion": null,
+      "certainty": "high",
+      "notes": "Dm7 (cifra: Dm7 no Half-Chorus). Score Dm7 1.26, G7 1.33 — Dm7 coerente com harmonia de Dm7."
+    }
+  ]
+}

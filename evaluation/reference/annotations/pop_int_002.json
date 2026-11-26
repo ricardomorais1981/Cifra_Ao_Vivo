@@ -1,0 +1,16 @@
+{
+  "id": "pop_int_002",
+  "title": "Hallelujah",
+  "artist": "Leonard Cohen",
+  "duration": 0.0,
+  "key": "C major",
+  "bpm": 60.0,
+  "time_signature": "4/4",
+  "split": "test",
+  "style": "pop_int",
+  "difficulty": "hard",
+  "audio_file": "pop_int_002.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. RESERVADA PARA TESTE. Progressão complexa, inversões, vi menor.",
+  "events": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "gospel_us_002",
+  "title": "How Great Thou Art",
+  "artist": "Traditional",
+  "duration": 0.0,
+  "key": "Bb major",
+  "bpm": 65.0,
+  "time_signature": "4/4",
+  "split": "dev",
+  "style": "gospel_us",
+  "difficulty": "easy",
+  "audio_file": "gospel_us_002.mp3",
+  "source_url": "",
+  "annotator_notes": "AGUARDANDO ÁUDIO. Acordes de tríade predominantes.",
+  "events": []
+}
