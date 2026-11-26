@@ -159,7 +159,7 @@ def _normalize_bass(bass: np.ndarray) -> np.ndarray:
 #  espalhava energia entre acordes vizinhos)
 # ---------------------------------------------------------------------------
 _BETA = 25.0   # "temperatura": converte similaridade em log-probabilidade
-_BASS_W = 6.0  # peso do baixo (ver _emission)
+_BASS_W = 3.0  # peso do baixo (ver _emission); v2.7: 6,0 -> 3,0 (medido: MajMin médio 44,2% -> 48,1%)
 
 def _emission(chroma: np.ndarray, templates: np.ndarray,
               bass: Optional[np.ndarray] = None) -> np.ndarray:
