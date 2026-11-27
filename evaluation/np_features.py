@@ -19,6 +19,7 @@ from __future__ import annotations
 import numpy as np
 from scipy import signal
 from scipy.ndimage import median_filter, uniform_filter1d
+from local_engine.recognition.engine import _SMOOTH  # mesma janela da produção
 
 
 def hpss_harmonic(y: np.ndarray, sr: int) -> np.ndarray:
@@ -94,7 +95,7 @@ def chroma_and_bass(y: np.ndarray, sr: int, hop: int = 2048):
     for i, p in enumerate(range(24, 108)):
         C[p % 12] += P[i]
     C /= np.linalg.norm(C, axis=0, keepdims=True) + 1e-12
-    C = uniform_filter1d(C, size=9, axis=1)
+    C = uniform_filter1d(C, size=_SMOOTH, axis=1)
     C /= np.maximum(np.linalg.norm(C, axis=0, keepdims=True), 1e-9)
 
     # baixo: E1 (28) a A3 (57)
@@ -103,5 +104,5 @@ def chroma_and_bass(y: np.ndarray, sr: int, hop: int = 2048):
     bass = np.zeros((12, Pb.shape[1]))
     for i, p in enumerate(range(28, 58)):
         bass[p % 12] += Pb[i]
-    bass = _normalize_bass(uniform_filter1d(bass, size=9, axis=1))
+    bass = _normalize_bass(uniform_filter1d(bass, size=_SMOOTH, axis=1))
     return C, bass

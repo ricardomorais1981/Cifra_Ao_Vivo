@@ -105,6 +105,10 @@ def _build_transition(self_prob: float = 0.95) -> np.ndarray:
 # CQT chroma com pré-processamento completo
 # Referência: FMP C5S3, librosa docs, Mauch 2010
 # ---------------------------------------------------------------------------
+# Janela de suavização do chroma e do baixo, em frames (13 × 93 ms ≈ 1,2 s).
+# v2.8: 9 -> 13 (medido com a avaliação numpy/scipy: MajMin médio 48,1% -> 48,5%)
+_SMOOTH = 13
+
 def _chroma_cqt(y: np.ndarray, sr: int, hop: int = 2048
                 ) -> tuple[np.ndarray, np.ndarray]:
     """
@@ -124,7 +128,7 @@ def _chroma_cqt(y: np.ndarray, sr: int, hop: int = 2048
         y=y_harm, sr=sr, hop_length=hop,
         bins_per_octave=36, tuning=tuning, norm=2,
     )
-    C_smooth = uniform_filter1d(C, size=9, axis=1)
+    C_smooth = uniform_filter1d(C, size=_SMOOTH, axis=1)
     col_norm = np.linalg.norm(C_smooth, axis=0, keepdims=True)
     col_norm[col_norm < 1e-9] = 1.0
     chroma = C_smooth / col_norm
@@ -137,7 +141,7 @@ def _chroma_cqt(y: np.ndarray, sr: int, hop: int = 2048
     for b in range(Q.shape[0]):
         bass[(4 + b) % 12] += Q[b]
     n = min(bass.shape[1], chroma.shape[1])
-    bass = _normalize_bass(uniform_filter1d(bass[:, :n], size=9, axis=1))
+    bass = _normalize_bass(uniform_filter1d(bass[:, :n], size=_SMOOTH, axis=1))
     return chroma[:, :n], bass
 
 
