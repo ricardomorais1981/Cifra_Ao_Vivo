@@ -5,3 +5,5 @@ _uploads/
 *.bak_*
 # Originais de referencia (48 kHz) ficam no computador do usuario; aqui so as copias 22k
 evaluation/reference/audio/*.wav
+# Audios do usuario baixados do Drive (nao versionar sem pedido do Ricardo)
+evaluation/reference/audio_user/

@@ -1,0 +1,95 @@
+{
+ "id": "zeneto_mulher_maravilha",
+ "titulo": "Mulher Maravilha",
+ "artista": "Zé Neto & Cristiano",
+ "fonte": "Cifra Club (cópia em PDF enviada pelo Ricardo ao Drive em 28/11/2026; uso autorizado por ele). Só acordes, sem letra. Sem tempos: serve só para comparação qualitativa, não para a medida oficial.",
+ "tom_cifra": "C",
+ "capo": null,
+ "nota_capo": "O PDF não indica capo; tratar como sem capo (tom soando C) até o Ricardo confirmar.",
+ "secoes": [
+  {
+   "nome": "Intro",
+   "acordes": [
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C"
+   ]
+  },
+  {
+   "nome": "Primeira Parte",
+   "acordes": [
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C",
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C"
+   ]
+  },
+  {
+   "nome": "Pré-Refrão",
+   "acordes": [
+    "Am7",
+    "D7",
+    "F9/C",
+    "Fm7(13)"
+   ]
+  },
+  {
+   "nome": "Refrão",
+   "acordes": [
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C",
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C"
+   ]
+  },
+  {
+   "nome": "Interlúdio",
+   "acordes": [
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C"
+   ]
+  },
+  {
+   "nome": "Pré-Refrão",
+   "acordes": [
+    "Am7",
+    "D7",
+    "F9/C",
+    "Fm7(13)"
+   ]
+  },
+  {
+   "nome": "Refrão",
+   "acordes": [
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C",
+    "C",
+    "F9/C",
+    "Am7",
+    "G11",
+    "F9/C",
+    "C"
+   ]
+  }
+ ]
+}

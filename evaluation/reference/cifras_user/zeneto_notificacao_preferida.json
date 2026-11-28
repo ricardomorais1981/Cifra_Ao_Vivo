@@ -1,0 +1,110 @@
+{
+ "id": "zeneto_notificacao_preferida",
+ "titulo": "Notificação Preferida",
+ "artista": "Zé Neto & Cristiano",
+ "fonte": "Cifra Club (cópia em PDF enviada pelo Ricardo ao Drive em 28/11/2026; uso autorizado por ele). Só acordes, sem letra. Sem tempos: serve só para comparação qualitativa, não para a medida oficial.",
+ "tom_cifra": "Em",
+ "capo": 4,
+ "nota_capo": "O PDF não mostra o capo; capo 4 vem do relato do Ricardo (teste da v2.5). Acordes abaixo nas formas do capo; soando 4 semitons acima (tom G#m).",
+ "secoes": [
+  {
+   "nome": "Intro",
+   "acordes": [
+    "C9",
+    "D",
+    "Bm7",
+    "Em7"
+   ]
+  },
+  {
+   "nome": "Primeira Parte",
+   "acordes": [
+    "C9",
+    "D",
+    "Bm7",
+    "Em7",
+    "C9",
+    "D",
+    "Bm7",
+    "Em7"
+   ]
+  },
+  {
+   "nome": "Pré-Refrão",
+   "acordes": [
+    "C9",
+    "D",
+    "Bm7",
+    "Em7",
+    "C9",
+    "D",
+    "C9",
+    "D",
+    "C9/E",
+    "D/F#"
+   ]
+  },
+  {
+   "nome": "Refrão",
+   "acordes": [
+    "C9",
+    "D",
+    "Bm7",
+    "Em7",
+    "C9",
+    "D",
+    "Em7"
+   ]
+  },
+  {
+   "nome": "Solo",
+   "acordes": [
+    "C9",
+    "D",
+    "Em7"
+   ]
+  },
+  {
+   "nome": "Pré-Refrão",
+   "acordes": [
+    "C9",
+    "D",
+    "Bm7",
+    "Em7",
+    "C9",
+    "D",
+    "C9",
+    "D",
+    "C9/E",
+    "D/F#"
+   ]
+  },
+  {
+   "nome": "Refrão Final",
+   "acordes": [
+    "C9",
+    "D",
+    "Bm7",
+    "Em7",
+    "C9",
+    "D",
+    "Em7",
+    "C9",
+    "D",
+    "Bm7",
+    "Em7",
+    "C9",
+    "D",
+    "Em7"
+   ]
+  },
+  {
+   "nome": "Solo final",
+   "acordes": [
+    "C9",
+    "D",
+    "Em7"
+   ]
+  }
+ ]
+}
